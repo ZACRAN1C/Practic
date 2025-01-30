@@ -1,0 +1,126 @@
+main {
+  padding-top: 179px;
+  padding-left: 147px;
+  padding-bottom: 174px;
+}
+
+.main-icon:nth-child(1) {
+  width: 88px;
+  height: 85px;
+  fill: #fad34f;
+  stroke: #FFFFFF;
+  stroke-width: 1px;
+}
+
+.main-icon:nth-child(2) {
+  width: 127px;
+  height: 127px;
+  fill: #fad34f;
+}
+
+.main-icon:nth-child(5){
+    width: 246px;
+height: 184px;
+flex-shrink: 0;
+fill: #C6C6C6;
+opacity: 0.05;
+position: absolute;
+top: 186px;
+}
+
+.main-title {
+  color: #3e3e3e;
+  font-family: "Apercu Arabic Pro";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 52px */
+}
+
+.main-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.main-input {
+  width: 557px;
+  height: 93px;
+  font-family: "Apercu Arabic Pro";
+  font-size: 18px;
+  color: #3e3e3e;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding-left: 46px;
+}
+
+.main-input::placeholder {
+  color: #2d2d2d;
+  font-family: "Apercu Arabic Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+}
+
+.main-textarea {
+  width: 557px;
+  height: 63px;
+  font-family: "Apercu Arabic Pro";
+  font-size: 18px;
+  color: #3e3e3e;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding-top: 31px;
+  padding-left: 46px;
+  padding-bottom: 126px;
+  margin-bottom: 15px;
+}
+
+.main-textarea::placeholder {
+  color: #2d2d2d;
+  font-family: "Apercu Arabic Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 32.4px */
+}
+
+.main-bt {
+  cursor: pointer;
+  border: 0;
+  border-radius: 500px;
+  background: #fad34f;
+  width: 218px;
+  height: 73px;
+  color: #fff;
+  font-family: "Apercu Arabic Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  padding-top: 79px;
+  padding-bottom: 105px;
+  border-top: 1px solid #d8d8d8;
+  background: #fafafa;
+}
+
+.footer-social {
+  width: 127px;
+  height: 16px;
+  flex-shrink: 0;
+}
