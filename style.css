@@ -4,28 +4,129 @@ main {
   padding-bottom: 174px;
 }
 
+.main-icon {
+  position: absolute;
+}
+
 .main-icon:nth-child(1) {
   width: 88px;
   height: 85px;
   fill: #fad34f;
-  stroke: #FFFFFF;
-  stroke-width: 1px;
+  stroke: #ffffff;
+  stroke-width: 1.3px;
+  top: 23px;
+  left: 29px;
 }
 
 .main-icon:nth-child(2) {
   width: 127px;
   height: 127px;
   fill: #fad34f;
+  stroke: #FFFFFF;
+  stroke-width: 0.6px;
+  top: 544px;
+  left: 763px;
+  z-index: 1;
 }
 
-.main-icon:nth-child(5){
-    width: 246px;
-height: 184px;
-flex-shrink: 0;
-fill: #C6C6C6;
+.main-icon:nth-child(4) {
+  top: 21px;
+  left: 714px;
+  fill: #FAD34F;
+opacity: 0.1;
+width: 87px;
+height: 87px;
+}
+
+.main-icon:nth-child(3) {
+  left: 822px;
+  top: 578px;
+  width: 214px;
+height: 208px;
+fill: #F472B7;
+stroke: #FFFFFF;
+stroke-width: 0.4px;
+}
+
+.main-icon:nth-child(5) {
+  fill: #C6C6C6;
 opacity: 0.05;
-position: absolute;
-top: 186px;
+  top: 186px;
+  left: -89px;
+  width: 245px;
+  height: 184px;
+}
+
+.main-icon:nth-child(6) {
+  fill: #C6C6C6;
+opacity: 0.05;
+  top: 400px;
+  left: -120px;
+  width: 218px;
+  height: 164px;
+}
+
+.main-icon:nth-child(7) {
+  fill: #C6C6C6;
+opacity: 0.05;
+  top: 689px;
+  left: 101px;
+  width: 131px;
+  height: 99px;
+}
+
+.main-icon:nth-child(8) {
+  fill: #C6C6C6;
+opacity: 0.05;
+  top: 706px;
+  left: 141px;
+  width: 288px;
+  height: 216px;
+}
+
+.main-icon:nth-child(9) {
+  fill: #C6C6C6;
+opacity: 0.05;
+  width: 218px;
+  height: 164px;
+  top: 626px;
+  left: 343px;
+}
+
+.main-icon:nth-child(10) {
+  fill: #C6C6C6;
+opacity: 0.05;
+  width: 169px;
+  height: 128px;
+  top: 746px;
+  left: 731px;
+}
+
+.main-icon:nth-child(11) {
+  fill: #C6C6C6;
+opacity: 0.05;
+  width: 172px;
+  height: 129px;
+  top: 256px;
+  left: 693px;
+}
+
+.main-icon:nth-child(12){
+  fill: #C6C6C6;
+opacity: 0.05;
+  width: 138px;
+height: 103px;
+top: 131px;
+left: 612px;
+}
+
+.main-icon:nth-child(13){
+  fill: #C6C6C6;
+opacity: 0.05;
+  width: 218px;
+height: 164px;
+top: 101px;
+left: 775px;
 }
 
 .main-title {
