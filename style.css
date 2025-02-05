@@ -6,6 +6,8 @@ main {
 
 .main-icon {
   position: absolute;
+  border: none;
+  outline: none;
 }
 
 .main-icon:nth-child(1) {
@@ -24,9 +26,9 @@ main {
   fill: #fad34f;
   stroke: #FFFFFF;
   stroke-width: 0.6px;
-  top: 544px;
-  left: 763px;
-  z-index: 1;
+  top: 524px;
+  left: 840px;
+  z-index: 3;
 }
 
 .main-icon:nth-child(4) {
@@ -39,13 +41,14 @@ height: 87px;
 }
 
 .main-icon:nth-child(3) {
-  left: 822px;
+  left: 872px;
   top: 578px;
   width: 214px;
 height: 208px;
 fill: #F472B7;
 stroke: #FFFFFF;
 stroke-width: 0.4px;
+z-index: 2;
 }
 
 .main-icon:nth-child(5) {
@@ -69,7 +72,7 @@ opacity: 0.05;
 .main-icon:nth-child(7) {
   fill: #C6C6C6;
 opacity: 0.05;
-  top: 689px;
+  top: 729px;
   left: 101px;
   width: 131px;
   height: 99px;
@@ -78,7 +81,7 @@ opacity: 0.05;
 .main-icon:nth-child(8) {
   fill: #C6C6C6;
 opacity: 0.05;
-  top: 706px;
+  top: 776px;
   left: 141px;
   width: 288px;
   height: 216px;
@@ -127,6 +130,23 @@ opacity: 0.05;
 height: 164px;
 top: 101px;
 left: 775px;
+}
+
+.main-box{
+  position: absolute;
+  top: -20px;
+  left: 900px;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 976px;
+height: 976px;
+flex-shrink: 0;
+z-index: 1;
+}
+
+.main-img{
+width: auto;
+height: 100%;
 }
 
 .main-title {
@@ -211,17 +231,56 @@ left: 775px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 28px 52px;
 }
 
 footer {
-  padding-top: 79px;
-  padding-bottom: 105px;
+  position: relative;
+  width: 1440px;
+  height: 200px;
+  padding-left: 343px;
   border-top: 1px solid #d8d8d8;
   background: #fafafa;
+  display: flex;
+align-items: center;
+}
+
+.footer-icon{
+  position: absolute;
+}
+
+.footer-icon:nth-child(1){
+  top: -40px;
+  left: 30px;
+  width: 214px;
+height: 208px;
+fill: #F472B7;
+stroke: #FFFFFF;
+stroke-width: 0.4px;
+}
+
+.footer-icon:nth-child(2){
+  width: 78px;
+height: 97px;
+flex-shrink: 0;
+fill: #46EBB0;
+stroke: #FFFFFF;
+top: -3px;
+left: 1300px;
+}
+
+.footer-icon:nth-child(3){
+  width: 88px;
+height: 85px;
+fill: #FAD34F;
+stroke: #FFFFFF;
+top: 60px;
+left: 1440px;
 }
 
 .footer-social {
   width: 127px;
   height: 16px;
   flex-shrink: 0;
+  fill: #696969;
 }
